@@ -13,9 +13,9 @@ function initializePage() {
 		$('.jumbotron h1').text("Javascript has taken control");
 		$("#testjs").text("Please wait...");
 		$(".jumbotron p").toggleClass("active");
-
-		});")
 	});
+	$("a.thumbnail").click(projectClick);
+}
 
 	// Add any additional listeners here
 	function projectClick(e) {
